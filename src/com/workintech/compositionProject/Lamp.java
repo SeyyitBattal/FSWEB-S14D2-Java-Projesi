@@ -1,5 +1,7 @@
 package com.workintech.compositionProject;
 
+import com.workintech.compositionProject.enums.LampType;
+
 public class Lamp {
     private LampType lampType;
     private boolean battery;

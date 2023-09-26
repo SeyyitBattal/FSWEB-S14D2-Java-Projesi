@@ -1,4 +1,4 @@
-package com.workintech.compositionProject;
+package com.workintech.compositionProject.enums;
 
 public enum PaintColor {
     GRAY,

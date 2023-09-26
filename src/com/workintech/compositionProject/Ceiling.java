@@ -1,5 +1,7 @@
 package com.workintech.compositionProject;
 
+import com.workintech.compositionProject.enums.PaintColor;
+
 public class Ceiling {
     private int height;
     private PaintColor paintedColor;

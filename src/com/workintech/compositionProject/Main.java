@@ -1,5 +1,8 @@
 package com.workintech.compositionProject;
 
+import com.workintech.compositionProject.enums.LampType;
+import com.workintech.compositionProject.enums.PaintColor;
+
 public class Main {
     public static void main(String[] args) {
         Room room1 = new Room("Living Room",

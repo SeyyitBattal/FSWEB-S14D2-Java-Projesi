@@ -1,5 +1,7 @@
 package com.workintech.compositionProject;
 
+import com.workintech.compositionProject.enums.LampType;
+
 public class Room {
     private String name;
     private Wall wall1, wall2, wall3, wall4;

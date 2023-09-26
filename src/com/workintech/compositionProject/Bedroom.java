@@ -1,5 +1,7 @@
 package com.workintech.compositionProject;
 
+import com.workintech.compositionProject.enums.LampType;
+
 public class Bedroom extends Room {
 
     private Bed bed;
