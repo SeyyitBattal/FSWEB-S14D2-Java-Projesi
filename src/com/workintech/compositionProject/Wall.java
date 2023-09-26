@@ -15,4 +15,11 @@ public class Wall {
     public void create() {
         System.out.println("The direction is: " + getDirection());
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "direction='" + direction + '\'' +
+                '}';
+    }
 }

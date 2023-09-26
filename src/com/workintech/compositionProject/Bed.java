@@ -46,4 +46,14 @@ public class Bed {
     }
 
 
+    @Override
+    public String toString() {
+        return "Bed{" +
+                "style='" + style + '\'' +
+                ", pillows=" + pillows +
+                ", height=" + height +
+                ", sheets=" + sheets +
+                ", quilt=" + quilt +
+                '}';
+    }
 }

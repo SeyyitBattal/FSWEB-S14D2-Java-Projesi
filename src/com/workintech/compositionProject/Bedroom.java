@@ -61,4 +61,20 @@ public class Bedroom {
     public Carpet getCarpet() {
         return carpet;
     }
+
+    @Override
+    public String toString() {
+        return "Bedroom{" +
+                "name='" + name + '\'' +
+                ", wall1=" + wall1 +
+                ", wall2=" + wall2 +
+                ", wall3=" + wall3 +
+                ", wall4=" + wall4 +
+                ", ceiling=" + ceiling +
+                ", bed=" + bed +
+                ", lampType=" + lampType +
+                ", wardrobe=" + wardrobe +
+                ", carpet=" + carpet +
+                '}';
+    }
 }

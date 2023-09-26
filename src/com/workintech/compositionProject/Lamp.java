@@ -47,4 +47,12 @@ public class Lamp {
     }
 
 
+    @Override
+    public String toString() {
+        return "Lamp{" +
+                "lampType=" + lampType +
+                ", battery=" + battery +
+                ", globRating=" + globRating +
+                '}';
+    }
 }

@@ -28,7 +28,12 @@ public class Wardrobe {
     }
 
 
-
-
-
+    @Override
+    public String toString() {
+        return "Wardrobe{" +
+                "width=" + width +
+                ", height=" + height +
+                ", weight=" + weight +
+                '}';
+    }
 }
