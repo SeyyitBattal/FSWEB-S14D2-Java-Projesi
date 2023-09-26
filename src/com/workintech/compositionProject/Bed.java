@@ -41,7 +41,7 @@ public class Bed {
     }
 
 
-    public static void make() {
+    public void make() {
         System.out.println("The bed is being made.");
     }
 

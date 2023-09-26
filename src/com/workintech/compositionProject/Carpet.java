@@ -26,7 +26,7 @@ public class Carpet {
     }
 
 
-    public static void lying(){
+    public void lying(){
         System.out.println("Carpet is lying on Bedroom floor.");
     }
 

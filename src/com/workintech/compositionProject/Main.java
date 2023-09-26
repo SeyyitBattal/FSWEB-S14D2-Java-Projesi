@@ -26,6 +26,11 @@ public class Main {
                 new Wardrobe(4, 5, 240),
                 new Carpet(3, 3, PaintColor.BLUE));
 
+        bedroom.getCarpet().lying();
+        bedroom.getCeiling().create();
+
+
+
         System.out.println("Bedroom: " + bedroom);
         System.out.println("Living Room: " + room1);
 

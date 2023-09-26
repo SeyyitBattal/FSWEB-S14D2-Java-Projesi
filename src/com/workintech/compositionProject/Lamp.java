@@ -37,7 +37,7 @@ public class Lamp {
         this.globRating = globRating;
     }
 
-    public static void turnOn() {
+    public void turnOn() {
         System.out.println("Lamp is being turned on.");
     }
     public LampType getStyle(LampType lampType){

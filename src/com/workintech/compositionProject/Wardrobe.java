@@ -23,7 +23,7 @@ public class Wardrobe {
     }
 
 
-    public static void add(){
+    public void add(){
         System.out.println("Wardrobe added into Bedroom.");
     }
 
